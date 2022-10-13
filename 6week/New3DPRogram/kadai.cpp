@@ -46,7 +46,11 @@ static bool scale = true;
 
 static float rotateValue = 1.0f;
 
-static float translateValue = 0.001f;
+static glm::mat3 translateM(
+    1, 0, 0,
+    0, 1, 0,
+    0.001f, 0, 1
+);
 
  //////////////////////////////////////////////////////////////////////////////////////////
 
@@ -157,17 +161,13 @@ void Update()
         
         //이동
 
-                transform.translate += glm::mat3(
-                    0, 0, 0.001,
-                    0, 0, 0,
-                    0, 0, 0
-            );
- 
+        transform.translate = transform.translate * translateM;
+
         //회전
         transform.rotation *= glm::mat3(
             glm::cos(glm::radians(rotateValue)), -glm::sin(glm::radians(rotateValue)), 0,
             glm::sin(glm::radians(rotateValue)), glm::cos(glm::radians(rotateValue)), 0,
-            0, 0, 0
+            0, 0, 1
         );
 
         //크기 조절
@@ -197,8 +197,7 @@ void Update()
             }
         }
 
-
-        cout << transformedCircle[0].pos.x;
+        cout << transformedCircle->pos.x;
 
         //////////////////////////////////////////////////////////////////////////////////////////
 
