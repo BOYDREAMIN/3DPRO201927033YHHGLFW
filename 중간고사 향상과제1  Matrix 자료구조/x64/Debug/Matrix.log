@@ -1,0 +1,7 @@
+﻿  Main.cpp
+C:\Users\hhmky\source\repos\Math\Matrix\Main.cpp(7,13): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+C:\Users\hhmky\source\repos\Math\Matrix\Main.cpp(37,15): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\hhmky\source\repos\Math\Matrix\Main.cpp(37,6): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\hhmky\source\repos\Math\Matrix\Main.cpp(36,12): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\hhmky\source\repos\Math\Matrix\Main.cpp(36,6): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Matrix.vcxproj -> C:\Users\hhmky\source\repos\Math\x64\Debug\Matrix.exe
