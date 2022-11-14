@@ -1,0 +1,4 @@
+﻿  Main.cpp
+C:\Users\hhmky\source\repos\Math\Matrix\MuSoenMath.h(153,10): warning C4101: 'translat' :참조되지 않은 지역 변수입니다.
+C:\Users\hhmky\source\repos\Math\Matrix\Main.cpp(8,1): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+  Matrix.vcxproj -> C:\Users\hhmky\source\repos\Math\x64\Debug\Matrix.exe
