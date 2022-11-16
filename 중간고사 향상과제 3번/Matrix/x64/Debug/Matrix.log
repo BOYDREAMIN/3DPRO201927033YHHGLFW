@@ -1,0 +1,8 @@
+﻿  Main.cpp
+C:\Users\hhmky\source\repos\Math\Matrix\MuSoenMath.h(153,10): warning C4101: 'translat' :참조되지 않은 지역 변수입니다.
+C:\Users\hhmky\source\repos\Math\Matrix\Main.cpp(25,21): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\hhmky\source\repos\Math\Matrix\Main.cpp(62,1): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\hhmky\source\repos\Math\Matrix\Main.cpp(183,13): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\hhmky\source\repos\Math\Matrix\Main.cpp(196,13): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\hhmky\source\repos\Math\Matrix\Main.cpp(269,19): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Matrix.vcxproj -> C:\Users\hhmky\source\repos\Math\x64\Debug\Matrix.exe
