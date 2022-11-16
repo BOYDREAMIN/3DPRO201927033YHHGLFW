@@ -1,3 +1,4 @@
+<<<<<<<< HEAD:중간고사 향상과제 3번/Matrix/x64/Debug/Matrix.exe.recipe
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project>
   <ProjectOutputs>
@@ -8,4 +9,16 @@
   <ContentFiles />
   <SatelliteDlls />
   <NonRecipeFileRefs />
+========
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\hhmky\source\repos\New3DPRogram\x64\Debug\New3DPRogram.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+>>>>>>>> ebb1374fd6bdf612058387bdca694780504207a9:6주차/x64/Debug/New3DPRogram.exe.recipe
 </Project>
